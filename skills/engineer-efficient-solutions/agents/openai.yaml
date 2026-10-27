@@ -1,0 +1,8 @@
+interface:
+  display_name: Production Algorithms & DSA
+  short_description: Choose and verify efficient production algorithms
+  default_prompt: Use $engineer-efficient-solutions to choose and implement a suitable
+    algorithm and data structure for this task, verify edge cases, and explain the
+    relevant complexity and tradeoffs briefly.
+policy:
+  allow_implicit_invocation: true

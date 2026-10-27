@@ -1,0 +1,22 @@
+{
+  "name": "engineer-efficient-solutions",
+  "version": "1.0.0",
+  "description": "A language-agnostic agent skill for choosing and verifying efficient production algorithms and data structures.",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "algorithms",
+    "data-structures",
+    "performance",
+    "problem-solving",
+    "coding-agents"
+  ],
+  "files": [
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
