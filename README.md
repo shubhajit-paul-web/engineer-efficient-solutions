@@ -16,10 +16,10 @@ The core instructions load first. Three targeted references provide additional g
 
 ## Install from GitHub
 
-After this repository is public, replace `YOUR_GITHUB_USERNAME` with its owner:
+After this repository is public, replace `shubhajit-paul-web` with its owner:
 
 ```sh
-npx skills add YOUR_GITHUB_USERNAME/engineer-efficient-solutions --skill engineer-efficient-solutions
+npx skills add shubhajit-paul-web/engineer-efficient-solutions --skill engineer-efficient-solutions
 ```
 
 Select the target agent when prompted. Use `-g` for installation across projects. The current Skills CLI requires Node.js 22.20 or newer; the skill's guidance is not restricted to JavaScript.
@@ -44,26 +44,26 @@ Example requests:
 
 ## Package contents
 
-| Path | Purpose |
-| --- | --- |
-| `skills/engineer-efficient-solutions/SKILL.md` | Activation criteria and engineering workflow |
-| `skills/engineer-efficient-solutions/references/algorithm-selection.md` | Pattern selection, preconditions, and common traps |
+| Path                                                                            | Purpose                                                       |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| `skills/engineer-efficient-solutions/SKILL.md`                                  | Activation criteria and engineering workflow                  |
+| `skills/engineer-efficient-solutions/references/algorithm-selection.md`         | Pattern selection, preconditions, and common traps            |
 | `skills/engineer-efficient-solutions/references/runtime-and-data-boundaries.md` | Runtime semantics, memory, databases, concurrency, and caches |
-| `skills/engineer-efficient-solutions/references/verification.md` | Boundary cases, correctness checks, and performance evidence |
-| `skills/engineer-efficient-solutions/agents/openai.yaml` | Optional agent metadata with implicit invocation enabled |
+| `skills/engineer-efficient-solutions/references/verification.md`                | Boundary cases, correctness checks, and performance evidence  |
+| `skills/engineer-efficient-solutions/agents/openai.yaml`                        | Optional agent metadata with implicit invocation enabled      |
 
 ## Publish on GitHub and share through skills.sh
 
 1. Extract the source archive and open its `engineer-efficient-solutions` folder.
 2. Review the MIT license and its copyright attribution.
 3. Create an empty public GitHub repository named `engineer-efficient-solutions` under your account.
-4. Run these commands after replacing `YOUR_GITHUB_USERNAME`:
+4. Run these commands after replacing `shubhajit-paul-web`:
 
 ```sh
 git init -b main
 git add .
 git commit -m "Initial release"
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/engineer-efficient-solutions.git
+git remote add origin https://github.com/shubhajit-paul-web/engineer-efficient-solutions.git
 git push -u origin main
 ```
 
